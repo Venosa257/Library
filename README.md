@@ -1,1 +1,2 @@
 # Library
+a simple library

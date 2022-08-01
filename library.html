@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Library</title>
+
+</head>
+
+<body>
+    <div id="background"></div>
+    <h1>Library</h1>
+    <div class="container">
+        <div id="information" action="">
+            <div id="close">X</div>
+            <h2>Add New Book</h2>
+            <form action="">
+                <label for="">TITLE</label>
+                <input type="text" name="title" id="title" class="input" placeholder="Title">
+                <span class="popup-title">Please fill out this field!</span>
+            </form>
+            <form action="">
+                <label for="">AUTHOR</label>
+                <input type="text" name="author" id="author" class="input" placeholder="Author">
+                <span class="popup-author">Please fill out this field!</span>
+            </form>
+            <form action="">
+                <label for="">PAGES</label>
+                <input type="number" name="pages" id="pages" class="input" placeholder="Pages">
+                <span class="popup-pages">Please fill out this field!</span>
+            </form>
+            <form action="">
+                <label for="">Have you read it?</label>
+                <input type="checkbox" name="checkbox" id="checkbox">
+            </form>
+            <button id="submit" type="submit" class="hoverable">ADD BOOK</button>
+        </div>
+        <div class="add">NEW BOOK</div>
+        <div class="bookcase"></div>
+    </div>
+
+</body>
+
+</html>
